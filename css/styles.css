@@ -1,30 +1,35 @@
-body{
-    background-image: url('../assets/img/coffee-login.jpg');
-    background-size: 100%;
-    background-position:center;
-      
+.login {
+  background-image: url("../assets/img/coffee-login.jpg");
+  background-size: 100%;
+  background-position: center;
 }
-
-.image{
-    display: flex;
-    width: 250px;
-    height: 250px;
-    
+.image {
+  display: flex;
+  width: 250px;
+  height: 250px;
 }
-.text-color{
-    color: white;
+.text-color {
+  color: white;
 }
-.main-container{
-   
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .bg-form{
-    background-color: rgba(0, 0, 0, .5);
-    color: white;
-    padding: 50px;
-    border-radius: .9rem;
-  }
+.main-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bg-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px;
+  border-radius: 0.9rem;
+}
+.bg-navbar {
+background-color: #2a1a1f;
+opacity:0.9;
+}
+.bghome {
+    background-image: url("../assets/img/cafe.jpg");
+    background-size: cover;
+    height: 100vh;
+}
